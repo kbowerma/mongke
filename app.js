@@ -1,5 +1,5 @@
 var Sequelize = require('sequelize')
-  , sequelize = new Sequelize('mongke', 'postgres', 'ayhtfifi', {
+  , sequelize = new Sequelize('mongke', 'username', 'password', {
       dialect: "postgres", // or 'sqlite', 'postgres', 'mariadb'
       port:    5432, // or 5432 (for postgres)
     })
